@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAF481E224ECFAD0028FED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */; };
+		DCAF4820224ECFAD0028FED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF481F224ECFAD0028FED8 /* ViewController.swift */; };
+		DCAF4822224ECFAF0028FED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAF4821224ECFAF0028FED8 /* Assets.xcassets */; };
+		DCAF4825224ECFAF0028FED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF4823224ECFAF0028FED8 /* Main.storyboard */; };
+		DCAF4831224ECFAF0028FED8 /* Ground_Station_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4830224ECFAF0028FED8 /* Ground_Station_2019Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCAF482D224ECFAF0028FED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCAF4812224ECFAD0028FED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCAF4819224ECFAD0028FED8;
+			remoteInfo = "Ground Station 2019";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCAF481A224ECFAD0028FED8 /* Ground Station 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ground Station 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCAF481F224ECFAD0028FED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCAF4821224ECFAF0028FED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCAF4824224ECFAF0028FED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAF4826224ECFAF0028FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAF4827224ECFAF0028FED8 /* Ground_Station_2019.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ground_Station_2019.entitlements; sourceTree = "<group>"; };
+		DCAF482C224ECFAF0028FED8 /* Ground Station 2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ground Station 2019Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAF4830224ECFAF0028FED8 /* Ground_Station_2019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground_Station_2019Tests.swift; sourceTree = "<group>"; };
+		DCAF4832224ECFAF0028FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCAF4817224ECFAD0028FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAF4829224ECFAF0028FED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAF4811224ECFAD0028FED8 = {
+			isa = PBXGroup;
+			children = (
+				DCAF481C224ECFAD0028FED8 /* Ground Station 2019 */,
+				DCAF482F224ECFAF0028FED8 /* Ground Station 2019Tests */,
+				DCAF481B224ECFAD0028FED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCAF481B224ECFAD0028FED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF481A224ECFAD0028FED8 /* Ground Station 2019.app */,
+				DCAF482C224ECFAF0028FED8 /* Ground Station 2019Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCAF481C224ECFAD0028FED8 /* Ground Station 2019 */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */,
+				DCAF481F224ECFAD0028FED8 /* ViewController.swift */,
+				DCAF4821224ECFAF0028FED8 /* Assets.xcassets */,
+				DCAF4823224ECFAF0028FED8 /* Main.storyboard */,
+				DCAF4826224ECFAF0028FED8 /* Info.plist */,
+				DCAF4827224ECFAF0028FED8 /* Ground_Station_2019.entitlements */,
+			);
+			path = "Ground Station 2019";
+			sourceTree = "<group>";
+		};
+		DCAF482F224ECFAF0028FED8 /* Ground Station 2019Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4830224ECFAF0028FED8 /* Ground_Station_2019Tests.swift */,
+				DCAF4832224ECFAF0028FED8 /* Info.plist */,
+			);
+			path = "Ground Station 2019Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCAF4819224ECFAD0028FED8 /* Ground Station 2019 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAF4835224ECFAF0028FED8 /* Build configuration list for PBXNativeTarget "Ground Station 2019" */;
+			buildPhases = (
+				DCAF4816224ECFAD0028FED8 /* Sources */,
+				DCAF4817224ECFAD0028FED8 /* Frameworks */,
+				DCAF4818224ECFAD0028FED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ground Station 2019";
+			productName = "Ground Station 2019";
+			productReference = DCAF481A224ECFAD0028FED8 /* Ground Station 2019.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCAF482B224ECFAF0028FED8 /* Ground Station 2019Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAF4838224ECFAF0028FED8 /* Build configuration list for PBXNativeTarget "Ground Station 2019Tests" */;
+			buildPhases = (
+				DCAF4828224ECFAF0028FED8 /* Sources */,
+				DCAF4829224ECFAF0028FED8 /* Frameworks */,
+				DCAF482A224ECFAF0028FED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAF482E224ECFAF0028FED8 /* PBXTargetDependency */,
+			);
+			name = "Ground Station 2019Tests";
+			productName = "Ground Station 2019Tests";
+			productReference = DCAF482C224ECFAF0028FED8 /* Ground Station 2019Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCAF4812224ECFAD0028FED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Prograde;
+				TargetAttributes = {
+					DCAF4819224ECFAD0028FED8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DCAF482B224ECFAF0028FED8 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DCAF4819224ECFAD0028FED8;
+					};
+				};
+			};
+			buildConfigurationList = DCAF4815224ECFAD0028FED8 /* Build configuration list for PBXProject "Ground Station 2019" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAF4811224ECFAD0028FED8;
+			productRefGroup = DCAF481B224ECFAD0028FED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCAF4819224ECFAD0028FED8 /* Ground Station 2019 */,
+				DCAF482B224ECFAF0028FED8 /* Ground Station 2019Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCAF4818224ECFAD0028FED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAF4822224ECFAF0028FED8 /* Assets.xcassets in Resources */,
+				DCAF4825224ECFAF0028FED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAF482A224ECFAF0028FED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCAF4816224ECFAD0028FED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAF4820224ECFAD0028FED8 /* ViewController.swift in Sources */,
+				DCAF481E224ECFAD0028FED8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAF4828224ECFAF0028FED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAF4831224ECFAF0028FED8 /* Ground_Station_2019Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAF482E224ECFAF0028FED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCAF4819224ECFAD0028FED8 /* Ground Station 2019 */;
+			targetProxy = DCAF482D224ECFAF0028FED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAF4823224ECFAF0028FED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAF4824224ECFAF0028FED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCAF4833224ECFAF0028FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCAF4834224ECFAF0028FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DCAF4836224ECFAF0028FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ground Station 2019/Ground_Station_2019.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = "Ground Station 2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCAF4837224ECFAF0028FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Ground Station 2019/Ground_Station_2019.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = "Ground Station 2019/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DCAF4839224ECFAF0028FED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = "Ground Station 2019Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ground Station 2019.app/Contents/MacOS/Ground Station 2019";
+			};
+			name = Debug;
+		};
+		DCAF483A224ECFAF0028FED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7TSUMP9P95;
+				INFOPLIST_FILE = "Ground Station 2019Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ground Station 2019.app/Contents/MacOS/Ground Station 2019";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCAF4815224ECFAD0028FED8 /* Build configuration list for PBXProject "Ground Station 2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAF4833224ECFAF0028FED8 /* Debug */,
+				DCAF4834224ECFAF0028FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAF4835224ECFAF0028FED8 /* Build configuration list for PBXNativeTarget "Ground Station 2019" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAF4836224ECFAF0028FED8 /* Debug */,
+				DCAF4837224ECFAF0028FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAF4838224ECFAF0028FED8 /* Build configuration list for PBXNativeTarget "Ground Station 2019Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCAF4839224ECFAF0028FED8 /* Debug */,
+				DCAF483A224ECFAF0028FED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCAF4812224ECFAD0028FED8 /* Project object */;
+}
