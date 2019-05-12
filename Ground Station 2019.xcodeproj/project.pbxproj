@@ -12,6 +12,19 @@
 		DCAF4822224ECFAF0028FED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAF4821224ECFAF0028FED8 /* Assets.xcassets */; };
 		DCAF4825224ECFAF0028FED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF4823224ECFAF0028FED8 /* Main.storyboard */; };
 		DCAF4831224ECFAF0028FED8 /* Ground_Station_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4830224ECFAF0028FED8 /* Ground_Station_2019Tests.swift */; };
+		DCAF4847224ED0AB0028FED8 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF483E224ED0A90028FED8 /* ORSSerialBuffer.m */; };
+		DCAF4848224ED0AB0028FED8 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF483E224ED0A90028FED8 /* ORSSerialBuffer.m */; };
+		DCAF4849224ED0AB0028FED8 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4840224ED0AA0028FED8 /* ORSSerialRequest.m */; };
+		DCAF484A224ED0AB0028FED8 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4840224ED0AA0028FED8 /* ORSSerialRequest.m */; };
+		DCAF484B224ED0AB0028FED8 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4843224ED0AA0028FED8 /* ORSSerialPacketDescriptor.m */; };
+		DCAF484C224ED0AB0028FED8 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4843224ED0AA0028FED8 /* ORSSerialPacketDescriptor.m */; };
+		DCAF484D224ED0AB0028FED8 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4844224ED0AA0028FED8 /* ORSSerialPort.m */; };
+		DCAF484E224ED0AB0028FED8 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4844224ED0AA0028FED8 /* ORSSerialPort.m */; };
+		DCAF484F224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4845224ED0AB0028FED8 /* ORSSerialPortManager.m */; };
+		DCAF4850224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4845224ED0AB0028FED8 /* ORSSerialPortManager.m */; };
+		DCAF4853224ED1010028FED8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4852224ED1010028FED8 /* Model.swift */; };
+		DCAF4854224ED1010028FED8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4852224ED1010028FED8 /* Model.swift */; };
+		DCD07F6C2288218700D91B89 /* SerialEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD07F6B2288218700D91B89 /* SerialEvents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,20 @@
 		DCAF482C224ECFAF0028FED8 /* Ground Station 2019Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ground Station 2019Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAF4830224ECFAF0028FED8 /* Ground_Station_2019Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground_Station_2019Tests.swift; sourceTree = "<group>"; };
 		DCAF4832224ECFAF0028FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCAF483B224ED0A90028FED8 /* Ground Station 2019-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ground Station 2019-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCAF483C224ED0A90028FED8 /* Ground Station 2019Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ground Station 2019Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCAF483D224ED0A90028FED8 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		DCAF483E224ED0A90028FED8 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		DCAF483F224ED0AA0028FED8 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		DCAF4840224ED0AA0028FED8 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		DCAF4841224ED0AA0028FED8 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		DCAF4842224ED0AA0028FED8 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		DCAF4843224ED0AA0028FED8 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		DCAF4844224ED0AA0028FED8 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		DCAF4845224ED0AB0028FED8 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		DCAF4846224ED0AB0028FED8 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		DCAF4852224ED1010028FED8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DCD07F6B2288218700D91B89 /* SerialEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialEvents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +105,15 @@
 			children = (
 				DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */,
 				DCAF481F224ECFAD0028FED8 /* ViewController.swift */,
+				DCD07F6B2288218700D91B89 /* SerialEvents.swift */,
+				DCAF4852224ED1010028FED8 /* Model.swift */,
+				DCAF4851224ED0C80028FED8 /* ORSSerialPort */,
 				DCAF4821224ECFAF0028FED8 /* Assets.xcassets */,
 				DCAF4823224ECFAF0028FED8 /* Main.storyboard */,
 				DCAF4826224ECFAF0028FED8 /* Info.plist */,
 				DCAF4827224ECFAF0028FED8 /* Ground_Station_2019.entitlements */,
+				DCAF483B224ED0A90028FED8 /* Ground Station 2019-Bridging-Header.h */,
+				DCAF483C224ED0A90028FED8 /* Ground Station 2019Tests-Bridging-Header.h */,
 			);
 			path = "Ground Station 2019";
 			sourceTree = "<group>";
@@ -93,6 +125,23 @@
 				DCAF4832224ECFAF0028FED8 /* Info.plist */,
 			);
 			path = "Ground Station 2019Tests";
+			sourceTree = "<group>";
+		};
+		DCAF4851224ED0C80028FED8 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				DCAF4846224ED0AB0028FED8 /* ORSSerialBuffer.h */,
+				DCAF483E224ED0A90028FED8 /* ORSSerialBuffer.m */,
+				DCAF4841224ED0AA0028FED8 /* ORSSerialPacketDescriptor.h */,
+				DCAF4843224ED0AA0028FED8 /* ORSSerialPacketDescriptor.m */,
+				DCAF483D224ED0A90028FED8 /* ORSSerialPort.h */,
+				DCAF4844224ED0AA0028FED8 /* ORSSerialPort.m */,
+				DCAF483F224ED0AA0028FED8 /* ORSSerialPortManager.h */,
+				DCAF4845224ED0AB0028FED8 /* ORSSerialPortManager.m */,
+				DCAF4842224ED0AA0028FED8 /* ORSSerialRequest.h */,
+				DCAF4840224ED0AA0028FED8 /* ORSSerialRequest.m */,
+			);
+			path = ORSSerialPort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +194,11 @@
 				TargetAttributes = {
 					DCAF4819224ECFAD0028FED8 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					DCAF482B224ECFAF0028FED8 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 						TestTargetID = DCAF4819224ECFAD0028FED8;
 					};
 				};
@@ -197,6 +248,13 @@
 			files = (
 				DCAF4820224ECFAD0028FED8 /* ViewController.swift in Sources */,
 				DCAF481E224ECFAD0028FED8 /* AppDelegate.swift in Sources */,
+				DCAF484B224ED0AB0028FED8 /* ORSSerialPacketDescriptor.m in Sources */,
+				DCAF484D224ED0AB0028FED8 /* ORSSerialPort.m in Sources */,
+				DCAF4849224ED0AB0028FED8 /* ORSSerialRequest.m in Sources */,
+				DCD07F6C2288218700D91B89 /* SerialEvents.swift in Sources */,
+				DCAF484F224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */,
+				DCAF4847224ED0AB0028FED8 /* ORSSerialBuffer.m in Sources */,
+				DCAF4853224ED1010028FED8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAF4854224ED1010028FED8 /* Model.swift in Sources */,
+				DCAF484A224ED0AB0028FED8 /* ORSSerialRequest.m in Sources */,
+				DCAF484E224ED0AB0028FED8 /* ORSSerialPort.m in Sources */,
+				DCAF484C224ED0AB0028FED8 /* ORSSerialPacketDescriptor.m in Sources */,
+				DCAF4850224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */,
+				DCAF4848224ED0AB0028FED8 /* ORSSerialBuffer.m in Sources */,
 				DCAF4831224ECFAF0028FED8 /* Ground_Station_2019Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ground Station 2019/Ground_Station_2019.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -360,6 +425,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ground Station 2019/Ground Station 2019-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -368,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Ground Station 2019/Ground_Station_2019.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -379,6 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ground Station 2019/Ground Station 2019-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -388,6 +457,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7TSUMP9P95;
@@ -399,6 +469,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ground Station 2019/Ground Station 2019Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ground Station 2019.app/Contents/MacOS/Ground Station 2019";
 			};
@@ -409,6 +481,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7TSUMP9P95;
@@ -420,6 +493,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Prograde.Ground-Station-2019Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ground Station 2019/Ground Station 2019Tests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ground Station 2019.app/Contents/MacOS/Ground Station 2019";
 			};
