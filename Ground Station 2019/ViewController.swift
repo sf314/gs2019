@@ -46,6 +46,11 @@ class ViewController: NSViewController, ORSSerialPortDelegate {
         // Binding the port selector to the content of the serialPortManager
         deviceList.bind(.content, to: serialPortManager, withKeyPath: "availablePorts", options: nil) // Works
         deviceList.bind(.contentValues, to: serialPortManager, withKeyPath: "availablePorts.name", options: nil)
+        
+        
+        // Set default colours
+        (telemView.contentView.documentView as! NSTextView).textColor = .white
+        (alertView.contentView.documentView as! NSTextView).textColor = .white
     }
 
     // 
