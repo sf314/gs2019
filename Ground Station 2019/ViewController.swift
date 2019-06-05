@@ -35,9 +35,32 @@ class ViewController: NSViewController, ORSSerialPortDelegate {
     // MARK: - Button Callbacks
     @IBAction func sendCommand(_ sender: Any) {
         
+        // Get text from command field
+        let command = commandField.stringValue
+        
+        // Update alert view
+        let alertString = "Sending command \"\(command)\"\n"
+        append(to: alertView, string: alertString)
+        
+        // TODO: - Send cmd over serial
+        
     }
     
     
+    // MARK: - Convenience
+    
+    func append(to view: NSScrollView, string: String) {
+        // Add string to end of document
+        (view.contentView.documentView as! NSTextView).textStorage?.append(NSAttributedString(string: string))
+        (view.contentView.documentView as! NSTextView).scrollToEndOfDocument(nil)
+        
+        // Set colour AFTERWARDS
+        // NOTE: text colour set applies only once, and works on all EXISTING text in the field, not stuff added afterwards
+        (view.contentView.documentView as! NSTextView).textColor = .white
+    }
+    
+    
+    // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
 
