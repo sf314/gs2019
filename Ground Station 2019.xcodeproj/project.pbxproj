@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC645DDF22ADE37800ABB9B0 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC645DDE22ADE37800ABB9B0 /* GraphView.swift */; };
+		DC944D4E22B32E21000EEA8A /* ConfigureLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC944D4D22B32E21000EEA8A /* ConfigureLayout.swift */; };
+		DC944D5022B32EC2000EEA8A /* Panel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC944D4F22B32EC2000EEA8A /* Panel.swift */; };
+		DC944D5222B344D1000EEA8A /* UpdateGraphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC944D5122B344D1000EEA8A /* UpdateGraphs.swift */; };
+		DC944D5422B34E61000EEA8A /* FileWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC944D5322B34E61000EEA8A /* FileWrite.swift */; };
 		DCAF481E224ECFAD0028FED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */; };
 		DCAF4820224ECFAD0028FED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF481F224ECFAD0028FED8 /* ViewController.swift */; };
 		DCAF4822224ECFAF0028FED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCAF4821224ECFAF0028FED8 /* Assets.xcassets */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC645DDE22ADE37800ABB9B0 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		DC944D4D22B32E21000EEA8A /* ConfigureLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureLayout.swift; sourceTree = "<group>"; };
+		DC944D4F22B32EC2000EEA8A /* Panel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panel.swift; sourceTree = "<group>"; };
+		DC944D5122B344D1000EEA8A /* UpdateGraphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateGraphs.swift; sourceTree = "<group>"; };
+		DC944D5322B34E61000EEA8A /* FileWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWrite.swift; sourceTree = "<group>"; };
 		DCAF481A224ECFAD0028FED8 /* Ground Station 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ground Station 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCAF481F224ECFAD0028FED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +116,11 @@
 				DCAF481D224ECFAD0028FED8 /* AppDelegate.swift */,
 				DCAF481F224ECFAD0028FED8 /* ViewController.swift */,
 				DCD07F6B2288218700D91B89 /* SerialEvents.swift */,
+				DC944D4F22B32EC2000EEA8A /* Panel.swift */,
+				DC944D5322B34E61000EEA8A /* FileWrite.swift */,
+				DC645DDE22ADE37800ABB9B0 /* GraphView.swift */,
+				DC944D5122B344D1000EEA8A /* UpdateGraphs.swift */,
+				DC944D4D22B32E21000EEA8A /* ConfigureLayout.swift */,
 				DCAF4852224ED1010028FED8 /* Model.swift */,
 				DCAF4851224ED0C80028FED8 /* ORSSerialPort */,
 				DCAF4821224ECFAF0028FED8 /* Assets.xcassets */,
@@ -246,12 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC944D4E22B32E21000EEA8A /* ConfigureLayout.swift in Sources */,
 				DCAF4820224ECFAD0028FED8 /* ViewController.swift in Sources */,
 				DCAF481E224ECFAD0028FED8 /* AppDelegate.swift in Sources */,
 				DCAF484B224ED0AB0028FED8 /* ORSSerialPacketDescriptor.m in Sources */,
+				DC944D5022B32EC2000EEA8A /* Panel.swift in Sources */,
 				DCAF484D224ED0AB0028FED8 /* ORSSerialPort.m in Sources */,
 				DCAF4849224ED0AB0028FED8 /* ORSSerialRequest.m in Sources */,
+				DC645DDF22ADE37800ABB9B0 /* GraphView.swift in Sources */,
 				DCD07F6C2288218700D91B89 /* SerialEvents.swift in Sources */,
+				DC944D5422B34E61000EEA8A /* FileWrite.swift in Sources */,
+				DC944D5222B344D1000EEA8A /* UpdateGraphs.swift in Sources */,
 				DCAF484F224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */,
 				DCAF4847224ED0AB0028FED8 /* ORSSerialBuffer.m in Sources */,
 				DCAF4853224ED1010028FED8 /* Model.swift in Sources */,
@@ -414,7 +434,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Ground Station 2019/Ground_Station_2019.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7TSUMP9P95;
@@ -436,7 +455,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Ground Station 2019/Ground_Station_2019.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7TSUMP9P95;
