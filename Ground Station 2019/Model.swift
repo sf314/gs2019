@@ -34,12 +34,14 @@ class Parser {
         }
         if (c == "\r") {
 //            print("Parser.ingest(): Lonely r! Appending.")
-            stringQueue.append(tempString)
-            tempString = ""
+//            stringQueue.append(tempString)
+//            tempString = ""
             return
         }
         if (c == "\n") {
 //            print("Parser.ingest(): Lonely n!")
+            stringQueue.append(tempString)
+            tempString = ""
             return
         }
         
