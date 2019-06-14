@@ -29,6 +29,7 @@
 		DCAF4850224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4845224ED0AB0028FED8 /* ORSSerialPortManager.m */; };
 		DCAF4853224ED1010028FED8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4852224ED1010028FED8 /* Model.swift */; };
 		DCAF4854224ED1010028FED8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAF4852224ED1010028FED8 /* Model.swift */; };
+		DCC78A8022B409B000364CF8 /* UpdateLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC78A7F22B409B000364CF8 /* UpdateLabels.swift */; };
 		DCD07F6C2288218700D91B89 /* SerialEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD07F6B2288218700D91B89 /* SerialEvents.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		DCAF4845224ED0AB0028FED8 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
 		DCAF4846224ED0AB0028FED8 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
 		DCAF4852224ED1010028FED8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DCC78A7F22B409B000364CF8 /* UpdateLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateLabels.swift; sourceTree = "<group>"; };
 		DCD07F6B2288218700D91B89 /* SerialEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialEvents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 				DC944D5322B34E61000EEA8A /* FileWrite.swift */,
 				DC645DDE22ADE37800ABB9B0 /* GraphView.swift */,
 				DC944D5122B344D1000EEA8A /* UpdateGraphs.swift */,
+				DCC78A7F22B409B000364CF8 /* UpdateLabels.swift */,
 				DC944D4D22B32E21000EEA8A /* ConfigureLayout.swift */,
 				DCAF4852224ED1010028FED8 /* Model.swift */,
 				DCAF4851224ED0C80028FED8 /* ORSSerialPort */,
@@ -274,6 +277,7 @@
 				DC944D5222B344D1000EEA8A /* UpdateGraphs.swift in Sources */,
 				DCAF484F224ED0AB0028FED8 /* ORSSerialPortManager.m in Sources */,
 				DCAF4847224ED0AB0028FED8 /* ORSSerialBuffer.m in Sources */,
+				DCC78A8022B409B000364CF8 /* UpdateLabels.swift in Sources */,
 				DCAF4853224ED1010028FED8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

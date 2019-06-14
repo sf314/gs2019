@@ -16,7 +16,7 @@ import Foundation
  Toggle file write with boolean flag
  */
 
-let debugMode = false
+let debugMode = true
 
 let telemDir = "CanSat_Telem " + dateToString(Date.init(timeIntervalSinceNow: 0))
 let telemetryFile = "telemetry.csv"

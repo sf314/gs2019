@@ -36,6 +36,13 @@ class ViewController: NSViewController, ORSSerialPortDelegate {
     @IBOutlet weak var connectButton: NSButton!
     @IBOutlet weak var fileWriteButton: NSButton!
     
+    @IBOutlet weak var metLabel: NSTextField!
+    @IBOutlet weak var packetLabel: NSTextField!
+    @IBOutlet weak var gpsTimeLabel: NSTextField!
+    @IBOutlet weak var gpsLatLabel: NSTextField!
+    @IBOutlet weak var gpsLonLabel: NSTextField!
+    @IBOutlet weak var gpsSatLabel: NSTextField!
+    @IBOutlet weak var stateLabel: NSTextField!
     
     var graphs: [GraphView] = []
     
@@ -103,6 +110,7 @@ class ViewController: NSViewController, ORSSerialPortDelegate {
                         append(to: telemView, string: "\(newPacket)\n")
                         write("\(newPacket)\n", toFile: telemetryFile)
                         updateGraphs(using: telemetry)
+                        updateLabels(using: telemetry)
                     } else {
                         print("  ERR: Telem was not able to set all fields!")
                     }
@@ -143,6 +151,9 @@ class ViewController: NSViewController, ORSSerialPortDelegate {
         // Initialize graphs?
         configureGraphLayout()
         updateGraphs(using: telemetry)
+        
+        // Add simulation
+        addSimButton()
     }
 
     // 
@@ -155,3 +166,23 @@ class ViewController: NSViewController, ORSSerialPortDelegate {
 
 }
 
+
+
+extension ViewController {
+    @objc func simulate() {
+        let testString = "3623,13.0,13,1000,1013,20,3.3,123.5,33.5,-111.9,1410,3,0.01,0.0,9.4,3\r\n"
+        parseIncomingBytes(testString)
+    }
+    
+    func addSimButton() {
+        let simButton = NSButton()
+        self.view.addSubview(simButton)
+        simButton.translatesAutoresizingMaskIntoConstraints = false
+        simButton.leadingAnchor.constraint(equalTo: fileWriteButton.trailingAnchor, constant: 10).isActive = true
+        simButton.topAnchor.constraint(equalTo: fileWriteButton.topAnchor).isActive = true
+        simButton.bottomAnchor.constraint(equalTo: fileWriteButton.bottomAnchor).isActive = true
+        simButton.widthAnchor.constraint(equalToConstant: 50)
+        simButton.title = "Simulate"
+        simButton.action = #selector(ViewController.simulate)
+    }
+}
