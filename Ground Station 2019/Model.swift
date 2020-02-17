@@ -111,7 +111,7 @@ class Telemetry {
     var fields: [TelemetryField] = []
     
     init() {
-        // Create the 15 fields
+        // Create the 14 fields
         fields.append(TelemetryField(name: "met (s)")) // L
         fields.append(TelemetryField(name: "packetCount (int)")) // L
         fields.append(TelemetryField(name: "altitude (m)")) // G
@@ -125,10 +125,9 @@ class Telemetry {
         fields.append(TelemetryField(name: "gpsAlt (m)")) // G
         
         fields.append(TelemetryField(name: "gpsSats (int)")) // L
-        fields.append(TelemetryField(name: "pitch (°/s)")) // G
-        fields.append(TelemetryField(name: "roll (°/s)")) // G
-        fields.append(TelemetryField(name: "bladeSpinRate (rpm)")) // G
+        fields.append(TelemetryField(name: "airspeed (m/s)")) // G
         fields.append(TelemetryField(name: "state (int)")) // L
+        fields.append(TelemetryField(name: "particleRate (p/s)")) // G
     }
     
     // Field update logic
