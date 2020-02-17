@@ -1,0 +1,10 @@
+# Global gitignore
+
+# Xcode UI meta files 
+**/UserInterfaceState.xcuserstate
+
+# Mac meta files
+**/.DS_Store
+
+# Miscellaneius editor files
+.vscode # If you happen to use VS Code to edit sometimes
